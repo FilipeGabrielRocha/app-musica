@@ -1,0 +1,118 @@
+/* HEADER */
+
+.main_container {
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 32rem;
+    margin-right: 5.6rem;
+}
+
+.main_container .header_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem;
+    margin: 1rem;
+    border-radius: .8rem;
+    background-color: #121212;
+}
+
+.header_navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_navigation .navigation .arrow-left {
+    margin-right: 2rem;
+}
+
+.header_navigation .navigation .arrow-left, 
+.header_navigation .navigation .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header_login {
+    display: flex;
+    align-items: center;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    width: 36.4rem;
+    height: 4.8rem;
+    margin-left: .8rem;
+    background-color: #242424;
+    border-radius: 50rem;
+    border: 1px solid transparent;
+}
+
+.header_search img {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-left: 1rem;
+}
+
+.header_search input {
+    background-color: transparent;
+    border: none;
+    padding: 0 10rem 0 1.2rem;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header_login .subscribe {
+    color: #a7a7a7;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-right: 3.2rem;
+    border: none;
+    background-color: transparent;
+}
+
+.header_login .login {
+    width: 10rem;
+    height: 4.8rem;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius: 4rem;
+    border: none;
+}
+
+.navegation_sections {
+    color: #fff;
+    padding: .8rem 1.6rem;
+    margin: 1rem;
+    border-radius: 0.8rem;
+    background-color: #121212;
+}
+
+.navegation_sections .title,
+.navegation_sections .subtitle {
+    font-weight: bold;
+}
+
+.navegation_sections .title {
+    font-size: 3.5rem;
+    margin: 3.5rem 0;
+}
+
+.navegation_sections .subtitle {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
